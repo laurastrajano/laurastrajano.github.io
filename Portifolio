@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Maria Laura Trajano — Ciência da Computação</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Maria Laura Trajano</h1>
+    <p>Estudante de Ciência da Computação | Desenvolvimento de Software & Tecnologia</p>
+    <button id="tema-btn">Modo Escuro</button>
+  </header>
+
+  <section class="sobre">
+    <h2>Sobre mim</h2>
+    <p>Olá! Sou estudante de Ciência da Computação e apaixonada por resolver problemas por meio da programação. No momento, estou construindo minha base teórica e prática em algoritmos, estruturas de dados e desenvolvimento de sistemas, buscando minha primeira oportunidade de estágio ou iniciação científica.</p>
+  </section>
+
+  <section class="habilidades">
+    <h2>Áreas de Estudo & Tecnologias</h2>
+    <ul>
+      <li><strong>Linguagens:</strong> Python, JavaScript, HTML5 e CSS3</li>
+      <li><strong>Fundamentos:</strong> Lógica de Programação, Algoritmos e Matemática Computacional</li>
+      <li><strong>Ferramentas:</strong> Git, GitHub e manipulação de dados (CSV/TXT)</li>
+    </ul>
+  </section>
+
+  <main>
+    <h2>Meus Projetos no GitHub</h2>
+    <div id="lista-projetos">Carregando repositórios...</div>
+  </main>
+
+  <footer>
+    <p>Conecte-se comigo: <a href="https://github.com" target="_blank">GitHub</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
